@@ -15,7 +15,7 @@ The framework consists of two stages:
 
 ```bash
 git clone https://anonymous.4open.science/r/GeoViewGate-0001/
-cd GeoViewGate
+cd GeoViewGate-0001
 ```
 
 ### 2. Recommended Dependencies
