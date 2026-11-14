@@ -45,9 +45,9 @@ def configure(argv=None):
     parser.add_argument('--sampling', choices=['heterogeneous_v1'], default=DEFAULT_SAMPLING,
                     help='128-pixel main field of view + thin slices at the upper and lower boundaries + 32-pixel texture field of view.')
     parser.add_argument('--slab-axis', type=int, choices=[0,1,2], default=2)
-    parser.add_argument('--slab-thickness', type=int, choices=range(15,27), default=26)
+    parser.add_argument('--slab-thickness', type=int, choices=range(10,42), default=26)
     parser.add_argument('--slab-overlap', type=int, default=13, help='Number of slices extending inward from the MASK bounding box along the depth axis; default: 13 slices inward and 13 slices outward.')
-    parser.add_argument('--extra-width', type=int, choices=range(7, 21), default=12, help='Number of voxels to expand on each side; the total increase in length and width is twice this value.')
+    parser.add_argument('--extra-width', type=int, choices=range(7, 17), default=12, help='Number of voxels to expand on each side; the total increase in length and width is twice this value.')
     parser.add_argument('--lr' , default=2e-4, type=float)
     parser.add_argument('--weight_decay', default=1e-2, type=float)
     parser.add_argument('--num_epochs', default=300, type=int)
