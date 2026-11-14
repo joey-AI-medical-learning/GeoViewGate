@@ -14,7 +14,7 @@ The framework consists of two stages:
 ### 1. Clone the Repository
 
 ```bash
-git clone <code_address>
+git clone https://anonymous.4open.science/r/GeoViewGate-0001/
 cd GeoViewGate
 ```
 
